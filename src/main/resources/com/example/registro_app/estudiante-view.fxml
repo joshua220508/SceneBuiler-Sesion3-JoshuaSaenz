@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.registro_app.EstudianteController">
+<VBox alignment="CENTER" minHeight="350.0" minWidth="300.0" spacing="15.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.registro_app.EstudianteController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
     </padding>
 
-    <Label fx:id="welcomeText"/>
+    <Label fx:id="welcomeText" text="Registro de Notas de Estudiantes" textAlignment="CENTER" textFill="#00909a" underline="true">
+      <VBox.margin>
+         <Insets bottom="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <font>
+         <Font name="Arial Bold" size="18.0" />
+      </font>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding></Label>
     <Button text="Hello!" />
 </VBox>
