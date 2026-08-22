@@ -20,10 +20,10 @@
       <padding>
          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
       </padding></Label>
-   <Label text="Nombre del Estudiante" />
-   <TextField fx:id="tfNombre" />
-   <Label text="Nota" />
-   <TextField fx:id="tfNota" />
-   <Button fx:id="btnGuardar" mnemonicParsing="false" text="Guardar" />
-   <Label fx:id="lblPromedio" text="Promedio: 0" />
+   <Label fx:id="lblnombre" text="Nombre del Estudiante" />
+   <TextField fx:id="txtNombre" />
+   <Label fx:id="lblnota" text="Nota" />
+   <TextField fx:id="txtNota" />
+   <Button fx:id="btnGuardar" mnemonicParsing="false" onAction="#onGuardarClick" text="Guardar" />
+   <Label fx:id="lblpromedio" text="Promedio: 0" />
 </VBox>
