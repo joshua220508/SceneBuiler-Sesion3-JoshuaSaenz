@@ -12,13 +12,18 @@
 
     <Label fx:id="welcomeText" text="Registro de Notas de Estudiantes" textAlignment="CENTER" textFill="#00909a" underline="true">
       <VBox.margin>
-         <Insets bottom="5.0" right="5.0" top="5.0" />
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
       </VBox.margin>
       <font>
-         <Font name="Arial Bold" size="18.0" />
+         <Font name="Arial Bold" size="13.0" />
       </font>
       <padding>
          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
       </padding></Label>
-    <Button text="Hello!" />
+   <Label text="Nombre del Estudiante" />
+   <TextField fx:id="tfNombre" />
+   <Label text="Nota" />
+   <TextField fx:id="tfNota" />
+   <Button fx:id="btnGuardar" mnemonicParsing="false" text="Guardar" />
+   <Label fx:id="lblPromedio" text="Promedio: 0" />
 </VBox>
